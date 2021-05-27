@@ -7,7 +7,7 @@ module.exports = {
             subject: "Testing Sendgrid and Strapi",
             text: "Sendgrig email",
             html: "Hello World"
-        }, config);
+        });
         ctx.send("Email sent");
     }
 }
