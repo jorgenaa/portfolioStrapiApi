@@ -3,6 +3,8 @@ module.exports = {
         await strapi.plugins['email'].services.email.send({
             to: "jorgen.arnes@gmail.com",
             from: "jorgen.arnes@gmail.com",
+            cc: 'jorgen.arnes@gmail.com',
+            bcc: 'jorgen.arnes@gmail.com',
             replyTo: "jorgen.arnes@gmail.com",
             subject: "Testing Sendgrid and Strapi",
             text: "Sendgrig email",
